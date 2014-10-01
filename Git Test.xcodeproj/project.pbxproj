@@ -14,6 +14,7 @@
 		5C4E3C2619DC08B8005EA012 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C4E3C2519DC08B8005EA012 /* Images.xcassets */; };
 		5C4E3C2919DC08B8005EA012 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C4E3C2719DC08B8005EA012 /* LaunchScreen.xib */; };
 		5C4E3C3519DC08B8005EA012 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E3C3419DC08B8005EA012 /* Git_TestTests.m */; };
+		5C4E3C4019DC1027005EA012 /* CCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E3C3F19DC1027005EA012 /* CCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		5C4E3C2E19DC08B8005EA012 /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C4E3C3319DC08B8005EA012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C4E3C3419DC08B8005EA012 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		5C4E3C3E19DC1027005EA012 /* CCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTest.h; sourceTree = "<group>"; };
+		5C4E3C3F19DC1027005EA012 /* CCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				5C4E3C2519DC08B8005EA012 /* Images.xcassets */,
 				5C4E3C2719DC08B8005EA012 /* LaunchScreen.xib */,
 				5C4E3C1819DC08B8005EA012 /* Supporting Files */,
+				5C4E3C3E19DC1027005EA012 /* CCTest.h */,
+				5C4E3C3F19DC1027005EA012 /* CCTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C4E3C2119DC08B8005EA012 /* ViewController.m in Sources */,
+				5C4E3C4019DC1027005EA012 /* CCTest.m in Sources */,
 				5C4E3C1E19DC08B8005EA012 /* AppDelegate.m in Sources */,
 				5C4E3C1B19DC08B8005EA012 /* main.m in Sources */,
 			);
